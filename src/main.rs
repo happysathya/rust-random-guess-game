@@ -25,7 +25,7 @@ fn main() {
         match guess.cmp(&random_number) {
             Ordering::Less => println!("Your guess is less than random number"),
             Ordering::Equal => {
-                println!("Nice, you guessed it correctly");
+                println!("Nice, you guessed random number correctly");
                 break;
             }
             Ordering::Greater => println!("Your guess is bigger than random number")
